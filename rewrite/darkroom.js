@@ -6,7 +6,8 @@ hostname= jk.5apk.cn
 [rewrite_local]  
 
 #名称 
-^http://                    url script-response-body https://gitee.com/xiaoerwang/quan-x/raw/master/rewrite/***
+
+^ https://api.revenuecat.com/v1/subscribers/$RCAnonymou url script-response-body https://gitee.com/xiaoerwang/quan-x/raw/master/rewrite/***
 */
 
 const path1 = "offer";
